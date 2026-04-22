@@ -25,7 +25,7 @@ import requests
 
 READMES = ["README.md", "README_CN.md"]
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-STAR_THRESHOLD = 1000
+STAR_THRESHOLD = 500
 API_BASE = "https://api.github.com/repos"
 
 HEADERS = {"Accept": "application/vnd.github.v3+json"}
@@ -67,7 +67,7 @@ ROW_RE = re.compile(
 )
 
 DATE_RE = re.compile(
-    r"(\*\*(?:📅\s*)?(?:Star counts last verified|Star 数据最后验证时间):\s*)(\d{4}-\d{2}-\d{2})(\*\*)"
+    r"(\*\*(?:📅\s*)?(?:Star counts last verified|Star 数据最后验证时间)[:：]\s*)(\d{4}-\d{2}-\d{2})(\*\*)"
 )
 
 
