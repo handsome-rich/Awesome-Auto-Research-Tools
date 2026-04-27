@@ -8,7 +8,7 @@
 
 > 🤖 A curated list of open-source projects that automate scientific research — from literature review to idea generation, experiment execution, paper writing, and peer review.
 
-**📅 Star counts last verified: 2026-04-22**
+**📅 Star counts last verified: 2026-04-27**
 
 ---
 
