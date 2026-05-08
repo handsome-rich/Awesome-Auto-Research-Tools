@@ -77,6 +77,7 @@
 | [PaperBanana](https://github.com/dwzhu-pku/PaperBanana) | <img src="https://img.shields.io/github/stars/dwzhu-pku/PaperBanana?style=for-the-badge" height="36"> | Streamlit, OpenRouter | OpenAI, Anthropic, Gemini（经 OpenRouter） | 参考驱动的多智能体学术插图生成框架。5 个专用 agent（检索、规划、风格、可视化、评审）生成出版级插图。 |
 | [MLE-agent](https://github.com/MLSysOps/MLE-agent) | <img src="https://img.shields.io/github/stars/MLSysOps/MLE-agent?style=for-the-badge" height="36"> | Python, Kaggle 集成, arXiv, Papers with Code | OpenAI, Anthropic Claude, Ollama (Llama3), Mistral | ML 工程与研究的智能伴侣。集成 arXiv 和 Papers with Code，提供更好的代码/研究计划。自动调试。 |
 | [AIDE](https://github.com/WecoAI/aideml) | <img src="https://img.shields.io/github/stars/WecoAI/aideml?style=for-the-badge" height="36"> | Python, Streamlit, Docker | OpenAI (GPT-4-turbo/4o), Anthropic Claude, Gemini, Ollama（本地） | AI 驱动的代码空间探索。LLM agent 通过树搜索编写、评估和改进 ML 代码。[[论文]](https://arxiv.org/abs/2502.13138) Kaggle 奖牌数是最佳线性 agent 的 4 倍。托管平台：[Weco AI](https://weco.ai)。 |
+| [Deep Researcher Agent](https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7) | <img src="https://img.shields.io/github/stars/Xiangyue-Zhang/auto-deep-researcher-24x7?style=for-the-badge" height="36"> | 自研 Leader-Worker 循环、CLI 工具调用、可选 SSH 后端、进度笔记 | Anthropic 兼容与 OpenAI 兼容 API；Claude Code, Codex CLI | 面向深度学习实验的 24/7 自主实验智能体。自动编辑代码、启动并监控训练、解析日志并持续迭代，同时保持训练监控零 LLM 调用、常量级记忆和 human-in-the-loop 控制。 |
 
 ## 🔧 研究 Skills 与插件合集
 
