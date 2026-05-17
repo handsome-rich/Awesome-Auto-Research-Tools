@@ -8,7 +8,7 @@
 
 > 🤖 精选的自动化科研开源项目列表 —— 覆盖文献综述、想法生成、实验执行、论文撰写与同行评审全流程。
 
-**📅 Star 数据最后验证时间：2026-04-22**
+**📅 Star 数据最后验证时间：2026-05-17**
 
 ---
 
@@ -39,8 +39,8 @@
 | [Agent Laboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) | <img src="https://img.shields.io/github/stars/SamuelSchmidgall/AgentLaboratory?style=for-the-badge" height="36"> | 自研多智能体（arXiv, HuggingFace, LaTeX） | OpenAI (o1/o3/GPT-4o), DeepSeek | 端到端自主研究工作流，包含文献综述、实验和报告撰写的专用智能体。 |
 | [AI-Researcher](https://github.com/HKUDS/AI-Researcher) | <img src="https://img.shields.io/github/stars/HKUDS/AI-Researcher?style=for-the-badge" height="36"> | 自研 + **LiteLLM**, Docker, Gradio | Anthropic, OpenAI, Gemini, DeepSeek, OpenRouter, GitHub AI（经 LiteLLM） | NeurIPS 2025 Spotlight。完全自主系统，覆盖文献综述、假设生成、算法实现和可投稿论文准备。 |
 | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | <img src="https://img.shields.io/github/stars/Galaxy-Dawn/claude-scholar?style=for-the-badge" height="36"> | **Claude Code** / Codex CLI / OpenCode, Zotero MCP, Obsidian, LaTeX | Anthropic Claude, OpenAI（经 Codex） | 半自动学术研究助手，覆盖 idea → 编码 → 实验 → 写作 → 投稿。 |
-| [EvoScientist](https://github.com/EvoScientist/EvoScientist) | <img src="https://img.shields.io/github/stars/EvoScientist/EvoScientist?style=for-the-badge" height="36"> | **LangChain** + DeepAgents, Docker（Python 3.11 + Node.js 24） | Anthropic Claude, OpenAI, Google Gemini, MiniMax, NVIDIA NIM | 自我进化的 AI Scientist。6 个专门 agent 协作，带持久化记忆，可自主探索并迭代改进。内置消息通道（Slack/Discord/Telegram/飞书/微信）。 |
 | [Biomni](https://github.com/snap-stanford/Biomni) | <img src="https://img.shields.io/github/stars/snap-stanford/Biomni?style=for-the-badge" height="36"> | 生物医学自研智能体 + 代码执行、数据湖、know-how 知识库 | Anthropic Claude, OpenAI, Azure OpenAI, Gemini, Groq, AWS Bedrock, 自定义 OpenAI 兼容 API | 斯坦福出品。通用生物医学 AI 智能体，可在生物与医学研究中自主执行任务，结合 LLM 推理、检索增强与工具/代码调用。 |
+| [EvoScientist](https://github.com/EvoScientist/EvoScientist) | <img src="https://img.shields.io/github/stars/EvoScientist/EvoScientist?style=for-the-badge" height="36"> | **LangChain** + DeepAgents, Docker（Python 3.11 + Node.js 24） | Anthropic Claude, OpenAI, Google Gemini, MiniMax, NVIDIA NIM | 自我进化的 AI Scientist。6 个专门 agent 协作，带持久化记忆，可自主探索并迭代改进。内置消息通道（Slack/Discord/Telegram/飞书/微信）。 |
 | [DeepScientist](https://github.com/ResearAI/DeepScientist) | <img src="https://img.shields.io/github/stars/ResearAI/DeepScientist?style=for-the-badge" height="36"> | 自研（贝叶斯优化、Findings Memory、Research Map），Git worktrees, LaTeX | OpenAI (Codex CLI), Anthropic Claude, Moonshot Kimi, OpenCode；本地模型后端 | Local-first 自主研究 studio。Findings Memory 与贝叶斯优化编排基线复现 → 分支实验 → LaTeX 论文草稿。 |
 | [DATAGEN](https://github.com/starpig1129/DATAGEN) | <img src="https://img.shields.io/github/stars/starpig1129/DATAGEN?style=for-the-badge" height="36"> | **LangChain** + **LangGraph**, MCP servers, Firecrawl | OpenAI, Anthropic Claude, Gemini, Ollama, Groq | AI 驱动的多智能体研究助手，自动完成假设生成、数据分析、可视化和报告撰写。 |
 | [Idea2Paper](https://github.com/AgentAlphaAGI/Idea2Paper) | <img src="https://img.shields.io/github/stars/AgentAlphaAGI/Idea2Paper?style=for-the-badge" height="36"> | 自研 AgentAlpha 框架（多智能体协作），向量数据库，知识图谱 | DeepSeek V3/R1, Claude 3.5, GPT-4o；Semantic Scholar, ArXiv API | 科研灵感探索引擎：多 Agent 协同进行深度文献挖掘与知识图谱对齐，将朴素 idea 包装为结构化课题方案。 |
