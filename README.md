@@ -129,7 +129,7 @@ Please keep entries sorted by star count (descending) within each category.
 
 ## 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=karpathy/autoresearch,SakanaAI/AI-Scientist,microsoft/RD-Agent,aiming-lab/AutoResearchClaw,kaixindelele/ChatPaper,snap-stanford/Biomni,ResearAI/DeepScientist,InternScience/InternAgent,bytedance/deer-flow,stanford-oval/storm,assafelovic/gpt-researcher,Alibaba-NLP/DeepResearch&type=Date)](https://star-history.com/#karpathy/autoresearch&SakanaAI/AI-Scientist&microsoft/RD-Agent&aiming-lab/AutoResearchClaw&kaixindelele/ChatPaper&snap-stanford/Biomni&ResearAI/DeepScientist&InternScience/InternAgent&bytedance/deer-flow&stanford-oval/storm&assafelovic/gpt-researcher&Alibaba-NLP/DeepResearch&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=karpathy/autoresearch,SakanaAI/AI-Scientist,microsoft/RD-Agent,aiming-lab/AutoResearchClaw,kaixindelele/ChatPaper,snap-stanford/Biomni,EvoScientist/EvoScientist,ResearAI/DeepScientist,InternScience/InternAgent,bytedance/deer-flow,stanford-oval/storm,assafelovic/gpt-researcher,Alibaba-NLP/DeepResearch,LearningCircuit/local-deep-research&type=Date)](https://star-history.com/#karpathy/autoresearch&SakanaAI/AI-Scientist&microsoft/RD-Agent&aiming-lab/AutoResearchClaw&kaixindelele/ChatPaper&snap-stanford/Biomni&EvoScientist/EvoScientist&ResearAI/DeepScientist&InternScience/InternAgent&bytedance/deer-flow&stanford-oval/storm&assafelovic/gpt-researcher&Alibaba-NLP/DeepResearch&LearningCircuit/local-deep-research&Date)
 
 ---
 
