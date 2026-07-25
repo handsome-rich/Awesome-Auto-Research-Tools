@@ -27,6 +27,7 @@ READMES = ["README.md", "README_CN.md"]
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 STAR_THRESHOLD = 500
 API_BASE = "https://api.github.com/repos"
+MAX_RATE_LIMIT_WAIT_SECONDS = 60
 
 HEADERS = {"Accept": "application/vnd.github.v3+json"}
 if GITHUB_TOKEN:
@@ -40,12 +41,22 @@ def get_stars(owner: str, repo: str) -> int | None:
     """Return current star count, or None on failure."""
     url = f"{API_BASE}/{owner}/{repo}"
     for attempt in range(3):
-        resp = requests.get(url, headers=HEADERS, timeout=15)
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=15)
+        except requests.RequestException as exc:
+            print(f"  WARNING: {owner}/{repo} request failed: {exc}")
+            return None
         if resp.status_code == 200:
             return resp.json()["stargazers_count"]
         if resp.status_code == 403:  # rate limit
             reset = int(resp.headers.get("X-RateLimit-Reset", 0))
             wait = max(reset - int(time.time()), 5)
+            if wait > MAX_RATE_LIMIT_WAIT_SECONDS:
+                print(
+                    f"  WARNING: GitHub API rate limit for {owner}/{repo} "
+                    f"resets in {wait}s; aborting instead of waiting."
+                )
+                return None
             print(f"  Rate limited, waiting {wait}s ...")
             time.sleep(wait)
             continue
@@ -134,11 +145,19 @@ def update_date(lines: list[str], new_date: str) -> list[str]:
     return updated
 
 
+def set_github_output(changed: bool) -> None:
+    """Expose whether README files changed to GitHub Actions."""
+    github_output = os.environ.get("GITHUB_OUTPUT", "")
+    if github_output:
+        with open(github_output, "a", encoding="utf-8") as f:
+            f.write(f"changed={'true' if changed else 'false'}\n")
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
-def main():
+def main() -> int:
     apply = "--apply" in sys.argv
 
     # 1. Collect all unique repos from both READMEs
@@ -154,6 +173,7 @@ def main():
     # 2. Fetch star counts
     star_map: dict[str, int] = {}  # "owner/repo" -> stars
     below_threshold = []
+    failed_repos = []
 
     for owner, repo in all_repos:
         stars = get_stars(owner, repo)
@@ -165,7 +185,7 @@ def main():
             if stars < STAR_THRESHOLD:
                 below_threshold.append((key, stars))
         else:
-            star_map[key] = 0
+            failed_repos.append(key)
             print(f"  {key}: FAILED")
         time.sleep(0.5)  # be polite
 
@@ -177,6 +197,14 @@ def main():
         for key, stars in below_threshold:
             print(f"   {key}: {stars}")
     print()
+
+    if failed_repos:
+        print("❌ Star update aborted because some repositories could not be checked:")
+        for key in failed_repos:
+            print(f"   {key}")
+        print("README files and verification dates were left unchanged.")
+        set_github_output(False)
+        return 1
 
     # 4. Update READMEs
     today = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
@@ -212,12 +240,9 @@ def main():
     if not changed:
         print("\n✅ Everything up to date, no changes needed.")
 
-    # Set output for GitHub Actions
-    github_output = os.environ.get("GITHUB_OUTPUT", "")
-    if github_output:
-        with open(github_output, "a") as f:
-            f.write(f"changed={'true' if changed else 'false'}\n")
+    set_github_output(changed)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
