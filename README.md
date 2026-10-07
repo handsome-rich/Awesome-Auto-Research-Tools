@@ -22,7 +22,7 @@
 
 ## 📑 Table of Contents
 
-<table>
+<table width="100%">
   <tr>
     <td align="center" width="33%"><a href="#-autonomous-research-systems"><b>🧪 Autonomous Research Systems</b></a><br><sub>20 projects · Ideas, experiments & papers</sub></td>
     <td align="center" width="33%"><a href="#-deep-research--literature-synthesis"><b>📚 Deep Research & Literature Synthesis</b></a><br><sub>10 projects · Search, read & synthesize</sub></td>

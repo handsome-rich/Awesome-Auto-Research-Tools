@@ -22,7 +22,7 @@
 
 ## 📑 目录
 
-<table>
+<table width="100%">
   <tr>
     <td align="center" width="33%"><a href="#-自主研究系统"><b>🧪 自主研究系统</b></a><br><sub>20 个项目 · 想法、实验与论文</sub></td>
     <td align="center" width="33%"><a href="#-深度调研与文献综合"><b>📚 深度调研与文献综合</b></a><br><sub>10 个项目 · 检索、阅读与综述</sub></td>
