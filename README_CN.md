@@ -16,7 +16,7 @@
   <img src="fig/banner_research.jpg" alt="科学研究流程插画，涵盖文献阅读、实验与论文撰写" width="800">
 </p>
 
-<sub>**📅 Star 数据最后验证时间：2026-10-27**</sub>
+<sub>**📅 Star 数据最后验证时间：2026-11-03**</sub>
 
 ---
 
@@ -49,8 +49,8 @@
 | [AI-Scientist](https://github.com/SakanaAI/AI-Scientist)<br><img src="https://img.shields.io/github/stars/SakanaAI/AI-Scientist?style=flat" alt="GitHub stars" height="20"> | 基于研究模板的科学发现系统，自动完成想法生成、编码、实验、论文撰写和评审。 | <b>工具:</b> 自研（模板系统, LaTeX 流水线）<br><b>接入:</b> OpenAI, Anthropic Claude, DeepSeek, Gemini, OpenRouter, 开源模型 |
 | [AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw)<br><img src="https://img.shields.io/github/stars/aiming-lab/AutoResearchClaw?style=flat" alt="GitHub stars" height="20"> | 23 阶段自主或人在回路科研流水线：idea → 文献 → 领域专用实验 → 多 agent 评审 → LaTeX 论文，支持六种干预模式。 | <b>工具:</b> 自研流水线、**OpenClaw** / ACP、Docker、LaTeX、OpenAlex、Semantic Scholar<br><b>接入:</b> OpenAI 兼容 API（OpenRouter, DeepSeek, MiniMax）；ACP 兼容编码 agent |
 | [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2)<br><img src="https://img.shields.io/github/stars/SakanaAI/AI-Scientist-v2?style=flat" alt="GitHub stars" height="20"> | 无需预编写研究模板的科学发现系统，通过渐进式 agentic 树搜索生成假设、执行实验、分析结果并撰写论文。 | <b>工具:</b> 自研（BFTS 智能体树搜索, AIDE）<br><b>接入:</b> OpenAI, Anthropic Claude（AWS Bedrock）, Gemini |
-| [Agent Laboratory](https://github.com/SamuelSchmidgall/AgentLaboratory)<br><img src="https://img.shields.io/github/stars/SamuelSchmidgall/AgentLaboratory?style=flat" alt="GitHub stars" height="20"> | 端到端自主研究工作流，包含文献综述、实验和报告撰写的专用智能体。 | <b>工具:</b> 自研多智能体（arXiv, HuggingFace, LaTeX）<br><b>接入:</b> OpenAI (o1/o3/GPT-4o), DeepSeek |
 | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar)<br><img src="https://img.shields.io/github/stars/Galaxy-Dawn/claude-scholar?style=flat" alt="GitHub stars" height="20"> | 半自动学术研究助手，覆盖文献综述、编码、实验、写作、投稿和项目知识管理，为不同编码 agent 提供独立分支。 | <b>工具:</b> **Claude Code** / Codex CLI / Kimi Code CLI / OpenCode, Zotero MCP, Obsidian, LaTeX<br><b>接入:</b> Anthropic Claude, OpenAI（Codex）, Moonshot Kimi；OpenCode 配置的提供商 |
+| [Agent Laboratory](https://github.com/SamuelSchmidgall/AgentLaboratory)<br><img src="https://img.shields.io/github/stars/SamuelSchmidgall/AgentLaboratory?style=flat" alt="GitHub stars" height="20"> | 端到端自主研究工作流，包含文献综述、实验和报告撰写的专用智能体。 | <b>工具:</b> 自研多智能体（arXiv, HuggingFace, LaTeX）<br><b>接入:</b> OpenAI (o1/o3/GPT-4o), DeepSeek |
 | [AI-Researcher](https://github.com/HKUDS/AI-Researcher)<br><img src="https://img.shields.io/github/stars/HKUDS/AI-Researcher?style=flat" alt="GitHub stars" height="20"> | NeurIPS 2025 Spotlight。完全自主系统，覆盖文献综述、假设生成、算法实现和可投稿论文准备。 | <b>工具:</b> 自研 + **LiteLLM**, Docker, Gradio<br><b>接入:</b> OpenAI, Anthropic, Gemini, DeepSeek, OpenRouter；LiteLLM 支持的提供商 |
 | [EvoScientist](https://github.com/EvoScientist/EvoScientist)<br><img src="https://img.shields.io/github/stars/EvoScientist/EvoScientist?style=flat" alt="GitHub stars" height="20"> | 自我进化的科研助手，由六个子 agent 分工规划、调研、编码、调试、分析和写作；持久记忆与可复用 skills 可在 CLI/TUI、WebUI 和消息通道间使用。 | <b>工具:</b> **LangChain** + **LangGraph** + DeepAgents, MCP, Docker<br><b>接入:</b> Anthropic, OpenAI, Google Gemini, DeepSeek, MiniMax, NVIDIA NIM, OpenRouter；可配置提供商 |
 | [Biomni](https://github.com/snap-stanford/Biomni)<br><img src="https://img.shields.io/github/stars/snap-stanford/Biomni?style=flat" alt="GitHub stars" height="20"> | 斯坦福出品。通用生物医学 AI 智能体，可在生物与医学研究中自主执行任务，结合 LLM 推理、检索增强与工具/代码调用。 | <b>工具:</b> 生物医学自研智能体 + 代码执行、数据湖、know-how 知识库<br><b>接入:</b> Anthropic, OpenAI, Azure OpenAI, Gemini, Groq, AWS Bedrock, Ollama；自定义 OpenAI 兼容 API |
