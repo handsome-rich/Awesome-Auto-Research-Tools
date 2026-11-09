@@ -16,7 +16,7 @@
   <img src="fig/banner_research.jpg" alt="Illustrated scientific research workflow, from literature review to experiments and paper writing" width="800">
 </p>
 
-<sub>**📅 Star counts last verified: 2026-11-03**</sub>
+<sub>**📅 Star counts last verified: 2026-11-10**</sub>
 
 ---
 

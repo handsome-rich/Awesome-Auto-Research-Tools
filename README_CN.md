@@ -16,7 +16,7 @@
   <img src="fig/banner_research.jpg" alt="科学研究流程插画，涵盖文献阅读、实验与论文撰写" width="800">
 </p>
 
-<sub>**📅 Star 数据最后验证时间：2026-11-03**</sub>
+<sub>**📅 Star 数据最后验证时间：2026-11-10**</sub>
 
 ---
 
