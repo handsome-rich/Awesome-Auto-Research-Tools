@@ -118,6 +118,7 @@
 
 [↑ Back to contents](#-table-of-contents)
 
+| [remote-factory](https://github.com/akashgit/remote-factory) | <img src="https://img.shields.io/github/stars/akashgit/remote-factory?style=for-the-badge" height="36"> | Python, Claude Code | Anthropic Claude (via Claude Code) | Self-evolving, stateful meta-harness for autonomous software development and research. Go from a plain-English idea to a running, continuously improving project. Turn any existing codebase into an autoresearch project in one command — auto-discovers eval dimensions, generates the scoring harness, and starts keep/revert experiment loops. Research mode wraps any measurable metric into a full optimization loop with failure analysis, monotonic improvement, and leakage guards. Agents evolve their own playbooks from outcomes. |
 ## 🔧 Research Skills & Plugin Collections
 
 > Reusable skill sets and plugin ecosystems that integrate with coding agents (Claude Code, Codex, Gemini CLI, etc.) to enable research workflows.
