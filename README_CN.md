@@ -25,7 +25,7 @@
 <table width="100%">
   <tr>
     <td align="center" width="33%"><a href="#-自主研究系统"><b>🧪 自主研究系统</b></a><br><sub>21 个项目 · 想法、实验与论文</sub></td>
-    <td align="center" width="33%"><a href="#-深度调研与文献综合"><b>📚 深度调研与文献综合</b></a><br><sub>10 个项目 · 检索、阅读与综述</sub></td>
+    <td align="center" width="33%"><a href="#-深度调研与文献综合"><b>📚 深度调研与文献综合</b></a><br><sub>11 个项目 · 检索、阅读与综述</sub></td>
     <td align="center" width="33%"><a href="#️-研究实现与实验"><b>⚙️ 研究实现与实验</b></a><br><sub>11 个项目 · 编码、运行与优化</sub></td>
   </tr>
   <tr>
@@ -74,6 +74,7 @@
 | 项目与 Stars | 简介 | 框架与 LLM API |
 |---|---|---|
 | [DeerFlow](https://github.com/bytedance/deer-flow)<br><img src="https://img.shields.io/github/stars/bytedance/deer-flow?style=flat" alt="GitHub stars" height="20"> | 字节跳动出品。DeerFlow 2.0 super-agent 框架，用于调研、编码和报告，支持子 agent、持久记忆、可复用 skills、项目工作区与定时任务。 | <b>工具:</b> **LangChain** + **LangGraph**、MCP、可扩展 skills、沙箱、InfoQuest<br><b>接入:</b> OpenAI 兼容 API, OpenRouter, vLLM；Codex CLI 与 Claude Code 后端 |
+| [last30days](https://github.com/mvanhorn/last30days-skill)<br><img src="https://img.shields.io/github/stars/mvanhorn/last30days-skill?style=flat" alt="GitHub stars" height="20"> | Agent skill，检索 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 与网页上最近 30 天的内容，按真实互动（点赞、投票、预测市场赔率）排序，并生成一份带引用的简报。另提供本地 MCP server。 | <b>工具:</b> Agent Skills、Python 调研引擎、本地 Go MCP server（stdio）<br><b>接入:</b> 取决于宿主 agent：Claude Code, Codex, Cursor, Gemini CLI 及其他 Agent Skills 宿主 |
 | [STORM](https://github.com/stanford-oval/storm)<br><img src="https://img.shields.io/github/stars/stanford-oval/storm?style=flat" alt="GitHub stars" height="20"> | 斯坦福出品。NAACL 2024。LLM 驱动的知识管理系统，生成带引用的完整维基百科风格文章。支持通过 Co-STORM（EMNLP 2024）进行人机协作。[[论文]](https://arxiv.org/abs/2402.14207) | <b>工具:</b> **DSPy** + **LiteLLM**, Streamlit<br><b>接入:</b> LiteLLM 支持的提供商；网页搜索与自定义文档检索器 |
 | [GPT Researcher](https://github.com/assafelovic/gpt-researcher)<br><img src="https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat" alt="GitHub stars" height="20"> | 自主网页与本地文档调研 agent，生成可追溯来源的报告，支持 PDF/Word/Markdown 导出、多 agent 工作流和编码 agent skill。 | <b>工具:</b> **LangGraph** / AG2、MCP、Claude Skill、FastAPI、NextJS<br><b>接入:</b> OpenAI, Anthropic Claude, Gemini；任何 OpenAI 兼容 API |
 | [Tongyi DeepResearch](https://github.com/Alibaba-NLP/DeepResearch)<br><img src="https://img.shields.io/github/stars/Alibaba-NLP/DeepResearch?style=flat" alt="GitHub stars" height="20"> | 阿里巴巴出品。面向长周期信息检索的 Tongyi-DeepResearch-30B-A3B 开源权重模型，支持 ReAct 和基于 IterResearch 的 heavy 推理模式。[[论文]](https://arxiv.org/abs/2510.24701) | <b>工具:</b> 自研（ReAct, IterResearch, GRPO RL）；Serper, Jina, SandboxFusion<br><b>接入:</b> OpenAI 兼容, OpenRouter；通义-30B-A3B, Dashscope/百炼 |
