@@ -16,7 +16,7 @@
   <img src="fig/banner_research.jpg" alt="科学研究流程插画，涵盖文献阅读、实验与论文撰写" width="800">
 </p>
 
-<sub>**📅 Star 数据最后验证时间：2026-11-17**</sub>
+<sub>**📅 Star 数据最后验证时间：2026-11-24**</sub>
 
 ---
 
@@ -58,8 +58,8 @@
 | [DATAGEN](https://github.com/zi-yue-1129/DATAGEN)<br><img src="https://img.shields.io/github/stars/zi-yue-1129/DATAGEN?style=flat" alt="GitHub stars" height="20"> | AI 驱动的多智能体研究助手，自动完成假设生成、数据分析、可视化和报告撰写。 | <b>工具:</b> **LangChain** + **LangGraph**、MCP、可复用 skills、Firecrawl / fastCRW<br><b>接入:</b> OpenAI, Anthropic, Gemini, Ollama, Groq, Atlas Cloud, OrcaRouter |
 | [AutoSci](https://github.com/PKU-DAIR/AutoSci)<br><img src="https://img.shields.io/github/stars/PKU-DAIR/AutoSci?style=flat" alt="GitHub stars" height="20"> | 北京大学出品。以持久记忆为核心的科研系统，覆盖文献综述、构思、实验、分析和写作，新增引导式方法迭代，并提供独立 Codex/OpenCode 预览分支。[[论文]](https://arxiv.org/abs/2605.31468) | <b>工具:</b> 记忆中心式 agent 框架、持久化知识图谱、Web 仪表盘<br><b>接入:</b> Claude Code；预览支持 Codex 和 OpenCode |
 | [InternAgent](https://github.com/InternScience/InternAgent)<br><img src="https://img.shields.io/github/stars/InternScience/InternAgent?style=flat" alt="GitHub stars" height="20"> | 上海 AI Lab 出品。InternAgent-1.5 编排假设生成、实验、科学论文复现和深度调研，跨研究轮次保留持久记忆。[[论文]](https://arxiv.org/abs/2602.08990) | <b>工具:</b> 自研科学发现/深度调研流水线、编码 agent 实验后端、持久记忆<br><b>接入:</b> OpenAI 兼容 API, OpenRouter, Anthropic Claude |
-| [Idea2Paper](https://github.com/AgentAlphaAGI/Idea2Paper)<br><img src="https://img.shields.io/github/stars/AgentAlphaAGI/Idea2Paper?style=flat" alt="GitHub stars" height="20"> | 其 Idea2Story 模块构建文献知识图谱、检索研究模式，并通过锚定多 agent 评审将原始 idea 完善为结构化科研叙事。[[论文]](https://arxiv.org/abs/2601.20833) | <b>工具:</b> 自研多 agent 流水线、知识图谱、embedding 检索、锚定评审<br><b>接入:</b> 可配置 LLM 端点与 OpenAI 兼容 embeddings API |
 | [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok)<br><img src="https://img.shields.io/github/stars/K-Dense-AI/k-dense-byok?style=flat" alt="GitHub stars" height="20"> | 本地 AI 科研协作者，支持文献、数据分析、代码执行、图表和报告；提供 177 个科学 skills，以哈希链实验日志记录执行步骤与产物。[[论文]](https://arxiv.org/abs/2610.00074) | <b>工具:</b> 本地优先工作区、Pi agent 运行时、科学 skills、专家 agent、MCP、Ollama<br><b>接入:</b> OpenRouter；OpenAI、Anthropic、Gemini 等直接 API；支持的订阅账户；Ollama / OpenAI 兼容本地服务 |
+| [Idea2Paper](https://github.com/AgentAlphaAGI/Idea2Paper)<br><img src="https://img.shields.io/github/stars/AgentAlphaAGI/Idea2Paper?style=flat" alt="GitHub stars" height="20"> | 其 Idea2Story 模块构建文献知识图谱、检索研究模式，并通过锚定多 agent 评审将原始 idea 完善为结构化科研叙事。[[论文]](https://arxiv.org/abs/2601.20833) | <b>工具:</b> 自研多 agent 流水线、知识图谱、embedding 检索、锚定评审<br><b>接入:</b> 可配置 LLM 端点与 OpenAI 兼容 embeddings API |
 | [NanoResearch](https://github.com/OpenRaiser/NanoResearch)<br><img src="https://img.shields.io/github/stars/OpenRaiser/NanoResearch?style=flat" alt="GitHub stars" height="20"> | 从 idea 到论文的端到端流水线，可在本地或 SLURM 执行真实实验；Evo 模式跨研究轮次调整可复用 skills、记忆和路由。[[论文]](https://arxiv.org/abs/2605.10813) | <b>工具:</b> 九阶段流水线、Evo skills/记忆/策略循环、本地/SLURM 执行、LaTeX<br><b>接入:</b> OpenAI 兼容 API；Claude Code |
 | [data-to-paper](https://github.com/Technion-Kishony-lab/data-to-paper)<br><img src="https://img.shields.io/github/stars/Technion-Kishony-lab/data-to-paper?style=flat" alt="GitHub stars" height="20"> | 以色列理工学院出品。NEJM AI 2025。将科研数据集转化为透明、可追溯、可验证的论文，由多个 agent 分工完成分析、解释、文献检索与写作。[[论文]](https://arxiv.org/abs/2404.17605) | <b>工具:</b> 多智能体流水线、代码执行、LaTeX、Semantic Scholar<br><b>接入:</b> OpenAI API；可选 DeepInfra |
 | [Robin](https://github.com/Future-House/robin)<br><img src="https://img.shields.io/github/stars/Future-House/robin?style=flat" alt="GitHub stars" height="20"> | FutureHouse 出品。Nature 2026。多智能体科学发现系统，协同完成文献调研、数据分析与实验规划。[[论文]](https://arxiv.org/abs/2505.13400) | <b>工具:</b> 多 agent 科学发现系统、**LiteLLM**、Edison 平台、Docker / Jupyter<br><b>接入:</b> LiteLLM 支持的提供商；Edison 平台提供文献与数据分析 agent |
